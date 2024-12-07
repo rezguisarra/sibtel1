@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RegistryServerApplication",
+            "request": "launch",
+            "mainClass": "tn.gov.sibtel.registry_server.RegistryServerApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tn.gov.sibtel.config_server.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RiadhApplication<riadh>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tn.gov.sibtel.riadh.RiadhApplication",
+            "projectName": "riadh",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
