@@ -3,4 +3,4 @@ spring:
     import: "configserver:"
   cloud:
     config:
-      uri: https://supreme-space-capybara-7v6pgw6q6gq2rww7-8889.app.github.dev/
+      uri: https://supreme-space-capybara-7v6pgw6q6gq2rww7-8887.app.github.dev/
